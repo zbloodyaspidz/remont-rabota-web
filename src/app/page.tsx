@@ -17,6 +17,10 @@ const features = [
 export default function HomePage() {
   return (
     <main className="min-h-screen">
+      <div style={{ position: 'fixed', top: 0, left: 0, right: 0, background: '#0A2B4E', color: 'white', padding: '20px', zIndex: 9999, fontSize: '20px', textAlign: 'center' }}>
+        ✅ Ремонт-Работа — сайт работает!
+      </div>
+      <div style={{ height: '60px' }} />
       {/* Header */}
       <header className="bg-primary-500 text-white">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
